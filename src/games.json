@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "url": "https://play2048.co/",
+    "thumbnail": "https://play-lh.googleusercontent.com/8-jV_3m1R11wF1uX_v2Uf5H9G5Rz1vA8X4Y2Fq3pGgZ_VzL8H0L-R-B9aB9eM7L9hY=s200",
+    "description": "Join the numbers to get to the 2048 tile!"
+  },
+  {
+    "id": "slope",
+    "title": "Slope",
+    "category": "Action",
+    "url": "https://slopegame.online/",
+    "thumbnail": "https://slope-game.github.io/game/slope/assets/images/slope-logo.png",
+    "description": "Navigate a ball through a 3D obstacle course."
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "category": "Classic",
+    "url": "https://tetris.com/play-tetris",
+    "thumbnail": "https://tetris.com/content/images/tetris-logo.png",
+    "description": "The world-famous block puzzle game."
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird",
+    "category": "Arcade",
+    "url": "https://flappybird.io/",
+    "thumbnail": "https://flappybird.io/img/logo.png",
+    "description": "Flap your wings and avoid the pipes."
+  },
+  {
+    "id": "minecraft-classic",
+    "title": "Minecraft Classic",
+    "category": "Sandbox",
+    "url": "https://classic.minecraft.net/",
+    "thumbnail": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/minecraft-creeper-face.png",
+    "description": "Play the original Minecraft in your browser!"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "category": "Idle",
+    "url": "https://orteil.dashnet.org/cookieclicker/",
+    "thumbnail": "https://orteil.dashnet.org/cookieclicker/img/cookieicon.png",
+    "description": "The ultimate idle game of baking cookies."
+  }
+]

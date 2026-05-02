@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+  
+  --color-neon-cyan: #00f3ff;
+  --color-neon-pink: #ff00ff;
+  --color-dark-bg: #0a0b10;
+  --color-card-bg: #151921;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-bg);
+    color: #e2e8f0;
+    font-family: var(--font-sans);
+  }
+}
+
+.neon-border {
+  position: relative;
+  border: 1px solid rgba(0, 243, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.neon-border:hover {
+  border-color: var(--color-neon-cyan);
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+}
+
+.circuit-pattern {
+  background-image: radial-gradient(rgba(0, 243, 255, 0.1) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.glass {
+  background: rgba(21, 25, 33, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
